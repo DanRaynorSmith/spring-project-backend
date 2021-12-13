@@ -9,10 +9,10 @@ public class Stock {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(nullable = false, unique = true)
+    @Column
     private String description;
 
-    @Column(nullable = false)
+    @Column
     private String category;
 
     @Column
